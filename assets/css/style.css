@@ -1063,36 +1063,102 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 @media (max-width: 768px) {
-  .glitch-text {
-    font-size: 2.5rem;
+  .container {
+    padding: 0.5rem;
   }
-
-  .hacker-profile {
-    flex-direction: column;
+  .news-section,
+  .skills-section,
+  .criminal-record,
+  .timeline-section,
+  .review-section,
+  .evidence-section {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    border-left-width: 2px;
   }
-
-  .timeline::after {
-    left: 31px;
+  .news-header {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
   }
-
-  .timeline-container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+  .profile-image,
+  .profile-info {
+    min-width: unset;
+    padding: 1rem 0.5rem;
   }
-
-  .timeline-container::before {
-    left: 60px;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #0f0 transparent transparent;
+  .profile-image img {
+    max-width: 90vw;
   }
-
-  .left::after,
-  .right::after {
-    left: 15px;
+  .profile-image::after {
+    font-size: 0.7rem;
+    padding: 3px 7px;
+    bottom: 5px;
+    right: 5px;
   }
-
-  .right {
-    left: 0%;
+  .criminal-record::before {
+    left: 10px;
+    font-size: 0.7rem;
+    padding: 3px 7px;
+  }
+  .timeline-content {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+  .timeline-date {
+    font-size: 0.9rem;
+  }
+  .footer {
+    padding: 1rem;
+    font-size: 0.7rem;
+  }
+  .audio-player-container {
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    max-width: 98vw;
+  }
+  .custom-audio-player {
+    max-width: 95vw;
+    font-size: 0.95rem;
+  }
+  .audio-label {
+    font-size: 1rem;
+    gap: 0.4rem;
+  }
+  .audio-icon {
+    font-size: 1.2rem;
+  }
+  .mock-code-section {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .mock-code-section::before {
+    right: 10px;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+  .badge-container {
+    gap: 0.5rem;
+  }
+  .badge {
+    width: 110px;
+    padding: 0.5rem;
+  }
+  .badge-title {
+    font-size: 0.8rem;
+  }
+  .badge-description {
+    font-size: 0.6rem;
+  }
+  .creator-rap-section {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+  .rap-line {
+    margin-bottom: 0.3rem;
+  }
+  .popup-notification {
+    max-width: 90vw;
+    padding: 10px;
+    font-size: 0.9rem;
+    right: 5px;
+    bottom: 5px;
   }
 }
